@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    cursor: pointer;
+}
+
+form{
+    background-color: aliceblue;
+    padding: 1rem;
+    border-radius: 4px;
+    width: 30rem;
+    box-shadow: 1rem 1rem 3rem rgba(0, 0, 0, 0.511);
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+
+form h1{
+    font-weight: 900;
+    font-size: 1.9rem;
+    padding: 0.3rem;
+    letter-spacing: 1rem;
+}
+
+form label{
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    letter-spacing: 0.1rem;
+}
+
+form input{
+    outline: none;
+    align-self: center;
+    padding: 0.6rem;   
+    margin-left: 0.9rem;
+    margin-bottom: 0.9rem;
+    width: 50%;
+    border: 1px solid transparent;
+    border-radius: 3px;
+
+}
+
+form textarea{
+    padding: 0.6rem;   
+    margin-left: 0.9rem;
+    margin-bottom: 0.9rem;
+    width: 50%;
+    height: 6rem;
+    resize: none;
+    align-self: center;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+}
+
+.messages, .additional, .names{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: column;
+    margin-top: 1rem;
+    /* border: 3px solid red; */
+}
+
+.messages, .additional{
+    margin-top: -0.7rem;
+}
+
+form button{
+    align-self: center;
+    cursor: pointer;
+    margin-top: 1rem;
+    padding: 1.4rem;
+    background-color: black;
+    color: aliceblue;
+    outline: none;
+    width: 50%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 900;
+    transition: all 0.2s ease-in;
+}
+
+a:link, a:hover, a:active, a:visited{
+  color: white;
+  text-decoration: none;
+}

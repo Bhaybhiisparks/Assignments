@@ -26,7 +26,7 @@ Here are some related projects
 
 ## Tech Stack
 
-**Client:** HTML5, CSS3
+**Client:** HTML5, CSS3.
 
 
 
