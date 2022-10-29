@@ -1,9 +1,19 @@
 
-# Week 3 CSS fundamentals
+# Week 5 NodeJS Task: Introduction To NodeJS
 
-A simple portfolio website with the following information:
-An about me section, a contact page, a services section, a home page 
-containing my hobbies, priorities and other skills.
+A portfolio having the following HTML pages:
+1. Home: The homepage should contain your data (bio).
+
+2. Contact: The contact page contains links to my social media.
+
+3. About: The about me page contains brief information about me.
+
+ Created a server using the HTTP module.
+ Create routes that render the HTML pages created on a browser.
+The base URL of your app renders the homepage.
+There is a /home route that redirects to the base of your app.
+
+
 
 
 ## Authors
@@ -14,68 +24,12 @@ containing my hobbies, priorities and other skills.
 
 ## Demo
 
-https://zuri-portfolio-1.osagioduwafaith.repl.co/
 
-
-## Related
-
-Here are some related projects
-
-[Random portfolio websites](https://www.invisionapp.com/inside-design/10-portfolio-websites-to-show-off-your-design-work/)
 
 
 ## Tech Stack
 
-**Client:** HTML5, CSS3.
-
-
-
-# Week 3 Tasks ( b) Using HTML and CSS
-A Registration page created using HTML and CSS
-Login page
-Success register page
-Your section of the registration page should include
-
-First name 
-Last name
-Phone number
-Email 
-Gender (select field)
-Date of birth (date selection option)
-Favorite color (color selector)
-Your section of the login page should include
-
-Email and
-password
-If the user uses the correct format for email and password, the user should be navigated to the success page.
-
-
-## Authors
-
-- [@bhaybhiisparks](https://github.com/Bhaybhiisparks)
-
-
-
-## Demo
-
-https://replit.com/@OsagioduwaFaith/zuri-signup?v=1/
-
-
-## Related
-
-Here are some related projects
-
-[Random login designs](https://colorlib.com/wp/html5-and-css3-login-forms/)
-
-
-## Tech Stack
-
-**Client:** HTML5, CSS
-
-
-
-
-
+**Server:** Node.js
 
 
 
