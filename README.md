@@ -30,4 +30,52 @@ Here are some related projects
 
 
 
+#Week 3 Tasks ( b) Using HTML and CSS
+A Registration page created using HTML and CSS
+Login page
+Success register page
+Your section of the registration page should include
+
+First name 
+Last name
+Phone number
+Email 
+Gender (select field)
+Date of birth (date selection option)
+Favorite color (color selector)
+Your section of the login page should include
+
+Email and
+password
+If the user uses the correct format for email and password, the user should be navigated to the success page.
+
+
+## Authors
+
+- [@bhaybhiisparks](https://github.com/Bhaybhiisparks)
+
+
+
+## Demo
+
+https://replit.com/@OsagioduwaFaith/zuri-signup?v=1/
+
+
+## Related
+
+Here are some related projects
+
+[Random login designs](https://colorlib.com/wp/html5-and-css3-login-forms/)
+
+
+## Tech Stack
+
+**Client:** HTML5, CSS
+
+
+
+
+
+
+
 

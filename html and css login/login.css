@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    box-sizing: border-box;
+   background-image: url('./pawel-czerwinski-2m4P67xWDww-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    cursor: pointer;
+    /* background-color: white; */
+}
+
+.container{
+    background-color: rgba(0, 0, 0, 0.255);
+    width: auto;
+    height: 100%;
+}
+
+form.login{
+    display: block;
+    width: 100%;
+    max-width: 384px;
+    height: 330px;
+    margin: 0 auto;
+    color: #2b2d2f;
+    border-radius: 0.3rem; 
+    padding: 2.5rem 2rem;
+    opacity: 0.6;
+    box-shadow: 0.1rem 2rem 5rem rgba(255, 0, 0, 0.564);
+    background-color: white;
+}
+
+h2{
+    color: rgb(234, 152, 165);
+    font-weight: 900;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.4rem;
+    border-bottom: 1px solid pink;
+}
+
+form label{
+    display: flex;
+    color: rgb(234, 152, 165);
+    font-style: bold;
+    font-size: 1.1rem;
+    font-weight: 900;
+    padding: 0.2rem;
+    margin-bottom: 2px;
+}
+
+form input{
+    padding: 0.6rem;   
+    margin-left: 0.9rem;
+    margin-bottom: 0.9rem;
+    width: 60%;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    border-bottom: 0.12rem solid gray;
+    box-shadow: 0.1rem 2rem 5rem rgba(255, 0, 0, 0.564);
+}
+
+.content{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 2.4rem;
+}
+
+label.email-label, label.password{
+    text-align: center;
+}
+
+.passwordContent{
+    margin-bottom: 0.3rem;
+}
+
+.submit{
+    cursor: pointer;
+    padding: 12px;
+    margin-top: 12px;
+    color: pink;
+    outline: none;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 900;
+    transition: all 0.2s ease-in;
+}
+
+.submit:hover{
+    color: white;
+    background-color: pink;
+}
