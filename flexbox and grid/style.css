@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    align-content: left;
+    justify-content: space-around;
+    min-width:375px;
+    max-width: 1440px;
+    /* box-sizing: border-box; */
+}
+
+.container div{
+    padding: 3rem 2.6rem;
+}
+
+.container img{
+    width: 30%;
+    margin-bottom: 2rem;
+}
+
+.container h1{
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 2rem;
+}
+
+.container div:first-child{
+    border-top-left-radius: 0.4rem;
+    border-bottom-left-radius: 0.4rem;
+}
+
+.container div:last-child{
+    border-top-right-radius: 0.4rem;
+    border-bottom-right-radius: 0.4rem;
+}
+
+.container div p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    /* text-align: justify; */
+    font-weight: 300;
+    font-size: 15px;
+    width: 12.7rem;
+    margin-bottom: 5.5rem;
+}
+
+.container div button{
+    display: block;
+    padding: 0.8rem 2rem;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    background-color: hsl(0, 0%, 95%);
+    border: 1px solid transparent;
+}
+
+.box1, .box1 button{
+    background-color:hsl(31, 77%, 52%);
+    color:hsl(31, 77%, 52%);
+}
+
+.box2, .box2 button{
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(184, 100%, 22%);
+}
+
+.box3, .box3 button{
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(179, 100%, 13%);
+}
+
+.clickMe a{
+    color: white;
+    position: fixed;
+    bottom: 1%;
+    right: -2.5%;
+    cursor: pointer;
+    padding: 10px;
+    transform: translate(-50%);
+    border: 1px solid transparent;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.289);
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+    background-color:  hsl(184, 100%, 22%);
+}
+
+a:hover{
+    color: white;
+    background-color:hsl(179, 100%, 13%);;
+}
+
+@media only screen and (max-width: 375px) {
+  body {
+    background-color: white;
+        display: flex;
+    flex-flow: column;
+    align-content: left;
+    justify-content: space-around;
+
+  }
+
+  .container {
+    margin-top: 53rem;
+/*     margin-left: 0.5rem; */
+    padding: 0rem 0.3rem;
+    display: flex;
+    flex-flow: column;
+    align-content: left;
+    justify-content: space-around;
+    width: 100vw;
+  }
+
+  .container div{
+    width: 100vw;
+    margin-left: 3px;
+    margin-right: 2px;
+  }
+}

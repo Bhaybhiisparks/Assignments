@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    background-color: black;
+    padding: 3.5rem;
+    overflow: hidden;
+}
+
+.wrapper{
+    margin-left: 16rem;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    width:40rem;
+    height: 30rem;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.container div{
+    border: 1px solid black;
+}
+
+.classA{
+    background-color:orangered ;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.classB{
+    background-color: orange;
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.classC{
+    background-color:forestgreen;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.classD{
+    background-color:deepskyblue;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.classE{
+    background-color:deepskyblue;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+@media only screen and (max-width: 375px) {
+body
+  {
+    padding: 1rem;
+}
+.wrapper{
+  margin-left: 0.1rem;
+  height: 100vh;
+  width: 100vw;
+}
+.container{
+  width: 18rem;
+}
+}
